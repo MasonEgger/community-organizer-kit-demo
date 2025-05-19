@@ -1,7 +1,7 @@
 site_name: Python Community and Conference Kit
 site_author: Python Software Foundation
-repo_url: https://github.com/PSF/community-organizer-kit-demo
-repo_name: PSF/community-organizer-kit-demo
+repo_url: https://github.com/masonegger/community-organizer-kit-demo
+repo_name: masonegger/community-organizer-kit-demo
 edit_uri: edit/main/docs/
 theme:
   name: material
@@ -12,6 +12,7 @@ theme:
     - announce.dismiss
     - navigation.tracking
     - toc.follow
+    - content.action.edit
 copyright: "Python Software Foundation © 2025"
 markdown_extensions:
   - abbr
