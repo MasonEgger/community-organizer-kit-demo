@@ -1,0 +1,64 @@
+site_name: Python Community and Conference Kit
+site_author: Python Software Foundation
+repo_url: https://github.com/PSF/community-organizer-kit-demo
+repo_name: PSF/community-organizer-kit-demo
+edit_uri: edit/main/docs/
+theme:
+  name: material
+  palette:
+    primary: blue
+  locale: en
+  features:
+    - announce.dismiss
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - toc.integrate
+    - toc.follow
+copyright: "Python Software Foundation © 2025"
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - toc:
+      permalink: true
+      toc_depth: 3
+nav:
+  - Home: index.md
+plugins:
+  - search
+  - social:
+      cards_layout_options:
+        background_color: "#4B8BBE"
+        color: "#FFD43B"
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/thepsf
+      name: Twitter
+    - icon: fontawesome/brands/mastodon
+      link: https://fosstodon.org/@ThePSF
+      name: Mastodon
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/python.org
+      name: Bluesky
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/4Hm36PPgpG
+      name: Discord
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/thepsf
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@ThePSF
+    - icon: fontawesome/brands/meetup
+      link: https://www.meetup.com/pro/python-software-foundation-meetups/
+    - icon: fontawesome/brands/github
+      link: https://github.com/PSF
